@@ -22,7 +22,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Rey
+ * @author juanr
  */
 public class Comprueba {
 
@@ -31,7 +31,7 @@ public class Comprueba {
     }
 
     static void alertaVacio(Component padre, JTextField campo) {
-        JOptionPane.showMessageDialog(padre, "El campo " + campo.getName() + " no puede quedar vacío", "Campo obligatorio", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(padre, "El campo " + campo.getName() + " no puede estar vacío", "Campo obligatorio", JOptionPane.ERROR_MESSAGE);
         campo.setBackground(Color.red);
     }
 
