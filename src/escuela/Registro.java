@@ -22,7 +22,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
  * @author juanr
  */
 public class Registro extends javax.swing.JFrame {
-    ArrayList<Alumno> vAlumnos = new ArrayList<>();
+    ArrayList<Alumno> vAlumno = new ArrayList<>();
 
     public Session Hibernate(){
          SessionFactory sessionFactory;
